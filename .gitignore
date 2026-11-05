@@ -1,0 +1,59 @@
+# ===== 系统 / 编辑器产生的垃圾文件 =====
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+._*
+*.lnk
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# ===== Python 编译与缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+*.spec
+
+# ===== 虚拟环境与密钥（务必别提交）=====
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# ===== Node / 前端（以后放前端代码时生效）=====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ===== IDE 个人配置 =====
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ===== 日志与本地数据 =====
+*.log
+logs/
+*.sqlite3
+*.db
+tmp/
+temp/
